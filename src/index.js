@@ -6,16 +6,18 @@ import ReactDOM from 'react-dom'
 // import FamiliaSilva from './componentes/FamiliaSilva'
 // import Familia from './componentes/Familia'
 // import Membro from './componentes/Membro'
-import ListaAprovados from "./componentes/ComponenteComFuncao";
+// import ListaAprovados from "./componentes/ComponenteComFuncao";
+import Pai from './componentes/Pai'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
+        <Pai />
+        {/* <ListaAprovados /> */}
         {/* <Familia sobrenome="Pereira">
             <Membro nome="Andre" />
             <Membro nome="Mariana" />
         </Familia> */}
-        <ListaAprovados />
         {/* <FamiliaSilva /> */}
         {/*<MultiElementos />*/}
         {/*<CompA valor="Olá eu sou o A!" />
