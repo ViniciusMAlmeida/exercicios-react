@@ -9,12 +9,13 @@ import ReactDOM from 'react-dom'
 // import ListaAprovados from "./componentes/ComponenteComFuncao";
 // import Pai from './componentes/Pai'
 // import ComponenteClasse from "./componentes/ComponenteClasse";
-import Contador from "./componentes/Contador";
+// import Contador from "./componentes/Contador";
+import Hook from "./componentes/Hook";
 
 const elemento = document.getElementById('root')
 ReactDOM.render(
     <div>
-        <Contador numeroInicial={100} />
+        <Hook />
         {/* <ComponenteClasse valor="Sou um componente de classe!" /> */}
         {/* <Pai /> */}
         {/* <ListaAprovados /> */}
